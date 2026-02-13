@@ -1,0 +1,8 @@
+export NOIP_USERNAME="CHANGEME"
+export NOIP_PASSWORD="CHANGEME"
+export NOIP_LOG_LEVEL="info"
+export NOIP_HTTP_TIMEOUT="60s"
+export NOIP_DAEMON_USER="duc"
+export NOIP_CHECK_INTERVAL="30m"
+export NOIP_DAEMON_GROUP="duc"
+export LATEST="https://www.noip.com/download/linux/latest"
