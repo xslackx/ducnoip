@@ -2,15 +2,6 @@ FROM ubuntu:latest
 
 COPY entrypoint.sh /entrypoint.sh
 
-ENV NOIP_USERNAME="CHANGEME"
-ENV NOIP_PASSWORD="CHANGEME"
-ENV NOIP_LOG_LEVEL="info"
-ENV NOIP_HTTP_TIMEOUT="60s"
-ENV NOIP_DAEMON_USER="duc"
-ENV NOIP_CHECK_INTERVAL="30m"
-ENV NOIP_DAEMON_GROUP="duc"
-ENV LATEST="https://www.noip.com/download/linux/latest"
-
 RUN apt update && \
 apt upgrade -y && \
 apt install wget \
