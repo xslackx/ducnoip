@@ -9,7 +9,7 @@ RUN apt update && \
 apt upgrade -y && \
 apt install wget \
 ca-certificates \
-busybox -Y && \
+busybox -y && \
 mkdir /usr/share/busybox && \
 busybox --install -s /usr/share/busybox && \
 useradd -c "NOIP" -m -s /usr/share/busybox/sh duc && \ 
