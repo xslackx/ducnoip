@@ -1,4 +1,4 @@
-#!/usr/share/busybox/sh
+#!/bin/bash
 
 app_help()
 {
